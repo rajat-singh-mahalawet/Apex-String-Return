@@ -5,8 +5,7 @@ public class StringArrayTest {
         for(integer i= 0; i< numb; i++){
             string temp = 'Test ' + i;
             s.add(temp);
-            System.debug(s[i]);
-            
+            System.debug(s[i]);         
         }
         return s;
         
